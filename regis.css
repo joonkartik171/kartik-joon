@@ -1,0 +1,41 @@
+html,body{width: 100%; height: 100%;
+display: grid;place-items: center; background:linear-gradient( aquamarine  ,rgba(0, 119, 255, 0.226));background-repeat: no-repeat; background-position: center; background-size: cover; }
+
+.container{background-color: whitesmoke; padding: 15px; padding-left: 5px  ; text-transform: capitalize; border-radius: 3px; width: 380px; height: 430px; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+form {margin: 10px; width: 95%;}
+
+form #same input{ margin: px;  width: 100%; ;}
+
+#reg{text-align: center; font-size: larger; text-transform: capitalize; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; padding-bottom: 5px; font-weight: 600;}
+
+.first{display: flex; justify-content: space-between;}
+
+ #date{width: 100%; height: 27px;}
+
+ form div{padding-bottom: 8px;}
+
+ form input{border: 5px black; border-radius: 4px ; height: 20px; margin-top: 5px; height: 25px; background-color:rgba(15, 15, 15, 0.070);outline: none;}
+
+.gender{display: flex; justify-content: space-around; position: relative; bottom: 4px; font-size: small; font-weight: 500;}
+
+.gender label{bottom: 13px; position: relative;}
+.gender input{bottom: 5px; position: relative;}
+
+#add input{ width: 100%;}
+#country{display: flex; justify-content: space-around;}
+
+
+
+#add{ position: relative;bottom: 35px;}
+
+#text {display: flex; justify-content: space-between;}
+
+form input{padding-left: 7px;}
+form  #postal{position: relative; left: 9px;}
+#add input{margin-bottom: 7px;}
+
+.allgender{position: relative; bottom: 5px;}
+
+.sub button{ background-color:rgb(10, 119, 228); width: 370px; height: 30px; border-radius: 3px; border: none; position: relative; text-transform: uppercase; }
+.sub button:hover{ background-color: black;  color: aliceblue; transition: all ease 0.3s;   }
